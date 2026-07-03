@@ -3,7 +3,7 @@ import './App.css'
 
 const portfolioContent = {
   en: {
-    pageTitle: 'Amany Melhem | Junior Full-Stack Developer',
+    pageTitle: 'Amany Melhem | Full-Stack Web Developer',
     aria: {
       home: 'Go to home',
       mainNavigation: 'Main navigation',
@@ -17,9 +17,8 @@ const portfolioContent = {
       contact: 'Contact',
     },
     hero: {
-      label: 'Hello, I’m',
       name: 'Amany Melhem',
-      title: 'Junior Full-Stack Developer',
+      title: 'Full-Stack Web Developer',
       description:
         'I build responsive and practical web applications using React, Node.js, Express, PostgreSQL, and Prisma.',
       primaryAction: 'View My Projects',
@@ -27,12 +26,11 @@ const portfolioContent = {
       codeText: 'Ideas into digital experiences.',
     },
     about: {
-      label: 'About Me',
-      title: 'Building practical digital experiences.',
+      title: 'Building practical and organized digital experiences',
       paragraphs: [
-        'I’m a junior full-stack developer focused on building responsive, practical, and user-friendly web applications.',
+        'I’m a full-stack developer focused on building responsive, practical, and user-friendly web applications.',
         'I have hands-on experience developing complete projects using React, Node.js, Express, PostgreSQL, and Prisma, including authentication, role-based access, dashboards, booking systems, and REST APIs.',
-        'I enjoy turning ideas into organized digital products while continuing to improve my development, debugging, and problem-solving skills.',
+        'I help you turn ideas into organized digital products while continuing to improve my development, debugging, and problem-solving skills.',
       ],
       highlights: [
         {
@@ -56,10 +54,7 @@ const portfolioContent = {
       ],
     },
     skills: {
-      label: 'My Skills',
-      title: 'Technologies I use to build complete projects.',
-      description:
-        'My current skill set covers frontend development, backend APIs, relational databases, deployment, and modern development workflows.',
+      title: 'Technologies I use to build complete projects',
       groups: [
         {
           number: '01',
@@ -124,10 +119,7 @@ const portfolioContent = {
       ],
     },
     projects: {
-      label: 'Selected Projects',
-      title: 'Projects built to solve real problems.',
-      description:
-        'A selection of full-stack and frontend projects that demonstrate my development process, technical skills, and attention to user experience.',
+      title: 'Projects built to solve real problems',
       problemLabel: 'Problem:',
       roleLabel: 'My Role:',
       featuresLabel: 'Key Features:',
@@ -199,10 +191,7 @@ const portfolioContent = {
       ],
     },
     contact: {
-      label: 'Contact',
-      title: 'Let’s work together.',
-      description:
-        'Choose the easiest way to contact me about your project.',
+      title: 'Let’s connect and turn your idea into reality',
       options: [
         {
           label: 'Email',
@@ -231,7 +220,7 @@ const portfolioContent = {
       ],
     },
     footer: {
-      role: 'Junior Full-Stack Developer',
+      role: 'Full-Stack Web Developer',
       projects: 'Projects',
       contact: 'Contact',
       backToTop: 'Back to top',
@@ -240,7 +229,7 @@ const portfolioContent = {
   },
 
   ar: {
-    pageTitle: 'أماني ملحم | مطوّرة ويب Full-Stack مبتدئة',
+    pageTitle: 'أماني ملحم | مطوّرة ويب Full-Stack',
     aria: {
       home: 'الانتقال إلى الصفحة الرئيسية',
       mainNavigation: 'التنقل الرئيسي',
@@ -254,21 +243,19 @@ const portfolioContent = {
       contact: 'التواصل',
     },
     hero: {
-      label: 'مرحبًا، أنا',
       name: 'أماني ملحم',
-      title: 'مطوّرة ويب Full-Stack مبتدئة',
+      title: 'مطوّرة ويب Full-Stack',
       description:
-        'أبني تطبيقات ويب عملية ومتجاوبة باستخدام',
+        'أقوم ببناء تطبيقات ويب عملية ومتجاوبة باستخدام',
       descriptionTechStack: 'React, Node.js, Express, PostgreSQL, Prisma.',
       primaryAction: 'مشاهدة مشاريعي',
       secondaryAction: 'تواصل معي',
       codeText: 'أحوّل الأفكار إلى تجارب رقمية.',
     },
     about: {
-      label: 'من أنا',
-      title: 'أبني تجارب رقمية عملية ومنظمة.',
+      title: 'أقوم ببناء تجارب رقمية عملية ومنظمة',
       paragraphs: [
-        'أنا مطوّرة ويب Full-Stack مبتدئة، أركّز على بناء تطبيقات ويب متجاوبة وعملية وسهلة الاستخدام.',
+        'أنا مطوّرة ويب Full-Stack أركّز على بناء تطبيقات ويب متجاوبة وعملية وسهلة الاستخدام.',
         {
           beforeTech:
             'لدي خبرة عملية في تطوير مشاريع متكاملة باستخدام',
@@ -277,7 +264,7 @@ const portfolioContent = {
             '، وتشمل أنظمة تسجيل الدخول والصلاحيات ولوحات التحكم والحجوزات وواجهات',
           restApi: 'REST API',
         },
-        'أستمتع بتحويل الأفكار إلى منتجات رقمية منظمة، مع الاستمرار في تطوير مهاراتي في البرمجة وتصحيح الأخطاء وحل المشكلات.',
+        'أساعدك في تحويل الأفكار إلى منتجات رقمية منظمة، مع الاستمرار في تطوير مهاراتي في البرمجة وتصحيح الأخطاء وحل المشكلات.',
       ],
       highlights: [
         {
@@ -301,10 +288,7 @@ const portfolioContent = {
       ],
     },
     skills: {
-      label: 'مهاراتي',
-      title: 'تقنيات أستخدمها لبناء مشاريع متكاملة.',
-      description:
-        'تشمل مهاراتي الحالية تطوير الواجهات الأمامية وواجهات API الخلفية وقواعد البيانات العلائقية والنشر وسير العمل الحديث.',
+      title: 'تقنيات أستخدمها لبناء مشاريع متكاملة',
       groups: [
         {
           number: '01',
@@ -369,10 +353,7 @@ const portfolioContent = {
       ],
     },
     projects: {
-      label: 'مشاريع مختارة',
-      title: 'مشاريع بُنيت لحل مشكلات حقيقية.',
-      description:
-        'مجموعة من مشاريع Full-Stack والواجهات الأمامية التي توضّح أسلوبي في التطوير ومهاراتي التقنية واهتمامي بتجربة المستخدم.',
+      title: 'مشاريع بُنيت لحل مشكلات حقيقية',
       problemLabel: 'المشكلة:',
       roleLabel: 'دوري:',
       featuresLabel: 'أهم الخصائص:',
@@ -443,10 +424,7 @@ const portfolioContent = {
       ],
     },
     contact: {
-      label: 'التواصل',
-      title: 'لنحوّل فكرتك إلى مشروع.',
-      description:
-        'اختاري الطريقة الأسهل للتواصل معي بخصوص مشروعك.',
+      title: 'لنتواصل لنحول فكرتك إلى واقع',
       options: [
         {
           label: 'البريد الإلكتروني',
@@ -475,7 +453,7 @@ const portfolioContent = {
       ],
     },
     footer: {
-      role: 'مطوّرة ويب Full-Stack مبتدئة',
+      role: 'مطوّرة ويب Full-Stack',
       projects: 'المشاريع',
       contact: 'التواصل',
       backToTop: 'العودة إلى الأعلى',
@@ -523,8 +501,57 @@ function renderBidiText(text, isArabic) {
   )
 }
 
+function renderContactIcon(icon) {
+  const iconProps = {
+    width: 22,
+    height: 22,
+    viewBox: '0 0 24 24',
+    fill: 'none',
+    xmlns: 'http://www.w3.org/2000/svg',
+    'aria-hidden': 'true',
+    focusable: 'false',
+  }
+
+  if (icon === '@') {
+    return (
+      <svg {...iconProps} stroke="currentColor" strokeWidth="2">
+        <path
+          d="M4 6h16v12H4z"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="m4 7 8 6 8-6"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    )
+  }
+
+  if (icon === '</>') {
+    return (
+      <svg {...iconProps} fill="currentColor">
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.38 6.84 9.74.5.09.68-.22.68-.49 0-.24-.01-1.04-.01-1.9-2.51.47-3.16-.63-3.36-1.2-.11-.29-.6-1.2-1.03-1.44-.35-.2-.85-.69-.01-.7.79-.01 1.35.74 1.54 1.05.9 1.55 2.34 1.11 2.91.85.09-.67.35-1.11.64-1.37-2.22-.26-4.55-1.14-4.55-5.05 0-1.11.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.26 9.26 0 0 1 12 6.99c.85 0 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.92-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.49A10.13 10.13 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"
+        />
+      </svg>
+    )
+  }
+
+  return (
+    <svg {...iconProps} fill="currentColor">
+      <path d="M19.05 4.91A9.8 9.8 0 0 0 3.62 16.73L2.5 21l4.36-1.1a9.78 9.78 0 0 0 4.68 1.19h.01a9.8 9.8 0 0 0 7.5-16.18Zm-7.5 14.51a8.12 8.12 0 0 1-4.14-1.13l-.3-.18-2.58.65.68-2.51-.2-.31a8.15 8.15 0 1 1 6.54 3.48Zm4.47-6.1c-.24-.13-1.44-.71-1.67-.79-.22-.08-.39-.12-.55.12-.16.25-.63.79-.77.95-.14.17-.28.18-.52.06-.24-.13-1.03-.38-1.96-1.21-.72-.64-1.21-1.44-1.35-1.68-.14-.25-.02-.38.11-.5.11-.11.24-.28.37-.43.12-.15.16-.25.24-.41.08-.17.04-.31-.02-.43-.06-.13-.55-1.34-.76-1.83-.2-.48-.4-.41-.55-.42h-.47c-.16 0-.43.06-.65.31-.22.25-.85.83-.85 2.02 0 1.19.87 2.34.99 2.5.12.17 1.71 2.61 4.15 3.66.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.44-.59 1.64-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28Z" />
+    </svg>
+  )
+}
+
 function App() {
   const [language, setLanguage] = useState('en')
+  const [isMobileNav, setIsMobileNav] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const currentYear = new Date().getFullYear()
   const content = portfolioContent[language]
   const isArabic = language === 'ar'
@@ -535,11 +562,97 @@ function App() {
     document.title = content.pageTitle
   }, [content.pageTitle, isArabic, language])
 
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 480px)')
+    const syncMobileNav = (event) => {
+      setIsMobileNav(event.matches)
+
+      if (!event.matches) {
+        setIsMobileMenuOpen(false)
+      }
+    }
+
+    syncMobileNav(mediaQuery)
+    mediaQuery.addEventListener('change', syncMobileNav)
+
+    return () => {
+      mediaQuery.removeEventListener('change', syncMobileNav)
+    }
+  }, [])
+
   const toggleLanguage = () => {
     setLanguage((currentLanguage) =>
       currentLanguage === 'en' ? 'ar' : 'en',
     )
   }
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false)
+  }
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen((isOpen) => !isOpen)
+  }
+
+  const mobileMenuId = 'mobile-navigation'
+  const mobileMenuButtonLabel = isMobileMenuOpen
+    ? isArabic
+      ? 'إغلاق القائمة'
+      : 'Close menu'
+    : isArabic
+      ? 'فتح القائمة'
+      : 'Open menu'
+
+  const navStyles = isMobileNav
+    ? {
+        position: 'absolute',
+        top: '64px',
+        right: isArabic ? 'auto' : 0,
+        left: isArabic ? 0 : 'auto',
+        minWidth: '170px',
+        padding: '14px',
+        display: isMobileMenuOpen ? 'flex' : 'none',
+        flexDirection: 'column',
+        alignItems: isArabic ? 'flex-end' : 'flex-start',
+        gap: '12px',
+        border: '1px solid rgba(23, 32, 51, 0.1)',
+        borderRadius: '16px',
+        background: 'rgba(255, 255, 255, 0.96)',
+        boxShadow: '0 18px 45px rgba(23, 32, 51, 0.12)',
+        backdropFilter: 'blur(14px)',
+      }
+    : undefined
+
+  const desktopLanguageButtonStyles = isMobileNav
+    ? { display: 'none' }
+    : undefined
+
+  const mobileControlsStyles = isMobileNav
+    ? {
+        display: 'flex',
+        alignItems: 'center',
+        gap: '8px',
+      }
+    : { display: 'contents' }
+
+  const mobileMenuButtonStyles = isMobileNav
+    ? {
+        width: '34px',
+        height: '32px',
+        padding: 0,
+        display: 'inline-grid',
+        placeItems: 'center',
+        border: '1px solid rgba(108, 77, 230, 0.2)',
+        borderRadius: '9px',
+        background: 'rgba(108, 77, 230, 0.08)',
+        color: 'var(--accent)',
+        cursor: 'pointer',
+      }
+    : { display: 'none' }
+
+  const mobileLanguageButtonStyles = isMobileNav
+    ? undefined
+    : { display: 'none' }
 
   return (
     <div
@@ -556,14 +669,71 @@ function App() {
           AM
         </a>
 
-        <nav
-          className="nav-links"
-          aria-label={content.aria.mainNavigation}
-        >
-          <a href="#about">{content.nav.about}</a>
-          <a href="#skills">{content.nav.skills}</a>
-          <a href="#projects">{content.nav.projects}</a>
-          <a href="#contact">{content.nav.contact}</a>
+        <div style={mobileControlsStyles}>
+          <button
+            type="button"
+            onClick={toggleMobileMenu}
+            aria-controls={mobileMenuId}
+            aria-expanded={isMobileMenuOpen}
+            aria-label={mobileMenuButtonLabel}
+            style={mobileMenuButtonStyles}
+          >
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+              focusable="false"
+            >
+              {isMobileMenuOpen ? (
+                <path
+                  d="m6 6 12 12M18 6 6 18"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                />
+              ) : (
+                <path
+                  d="M4 7h16M4 12h16M4 17h16"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                />
+              )}
+            </svg>
+          </button>
+
+          <nav
+            id={mobileMenuId}
+            className="nav-links"
+            aria-label={content.aria.mainNavigation}
+            style={navStyles}
+          >
+            <a href="#about" onClick={closeMobileMenu}>
+              {content.nav.about}
+            </a>
+            <a href="#skills" onClick={closeMobileMenu}>
+              {content.nav.skills}
+            </a>
+            <a href="#projects" onClick={closeMobileMenu}>
+              {content.nav.projects}
+            </a>
+            <a href="#contact" onClick={closeMobileMenu}>
+              {content.nav.contact}
+            </a>
+
+            <button
+              className="language-toggle"
+              type="button"
+              onClick={toggleLanguage}
+              aria-label={content.aria.languageButton}
+              title={content.aria.languageButton}
+              style={desktopLanguageButtonStyles}
+            >
+              {isArabic ? 'EN' : 'AR'}
+            </button>
+          </nav>
 
           <button
             className="language-toggle"
@@ -571,23 +741,23 @@ function App() {
             onClick={toggleLanguage}
             aria-label={content.aria.languageButton}
             title={content.aria.languageButton}
+            style={mobileLanguageButtonStyles}
           >
             {isArabic ? 'EN' : 'AR'}
           </button>
-        </nav>
+        </div>
       </header>
 
       <main>
         <section className="hero" id="home">
           <div className="hero-content">
-            <p className="hero-label">{content.hero.label}</p>
             <h1>{content.hero.name}</h1>
             <h2>{renderBidiText(content.hero.title, isArabic)}</h2>
 
             <p className="hero-description">
               {isArabic ? (
                 <>
-                  أبني تطبيقات ويب عملية ومتجاوبة باستخدام{' '}
+                  أقوم ببناء تطبيقات ويب عملية ومتجاوبة باستخدام{' '}
                   <span
                     dir="ltr"
                     style={{
@@ -630,7 +800,9 @@ function App() {
 
         <section className="about-section" id="about">
           <div className="section-heading">
-            <p className="section-label">{content.about.label}</p>
+            {content.about.label && (
+              <p className="section-label">{content.about.label}</p>
+            )}
             <h2>{content.about.title}</h2>
           </div>
 
@@ -678,13 +850,17 @@ function App() {
         <section className="skills-section" id="skills">
           <div className="skills-intro">
             <div className="section-heading">
-              <p className="section-label">{content.skills.label}</p>
+              {content.skills.label && (
+                <p className="section-label">{content.skills.label}</p>
+              )}
               <h2>{content.skills.title}</h2>
             </div>
 
-            <p className="skills-description">
-              {renderBidiText(content.skills.description, isArabic)}
-            </p>
+            {content.skills.description && (
+              <p className="skills-description">
+                {renderBidiText(content.skills.description, isArabic)}
+              </p>
+            )}
           </div>
 
           <div className="skills-grid">
@@ -716,15 +892,19 @@ function App() {
         <section className="projects-section" id="projects">
           <div className="projects-intro">
             <div className="section-heading">
-              <p className="section-label">
-                {content.projects.label}
-              </p>
+              {content.projects.label && (
+                <p className="section-label">
+                  {content.projects.label}
+                </p>
+              )}
               <h2>{content.projects.title}</h2>
             </div>
 
-            <p className="projects-description">
-              {renderBidiText(content.projects.description, isArabic)}
-            </p>
+            {content.projects.description && (
+              <p className="projects-description">
+                {renderBidiText(content.projects.description, isArabic)}
+              </p>
+            )}
           </div>
 
           <div className="projects-list">
@@ -837,11 +1017,15 @@ function App() {
         <section className="contact-section" id="contact">
           <div className="contact-shell">
             <div className="contact-heading">
-              <p className="section-label">
-                {content.contact.label}
-              </p>
+              {content.contact.label && (
+                <p className="section-label">
+                  {content.contact.label}
+                </p>
+              )}
               <h2>{content.contact.title}</h2>
-              <p>{content.contact.description}</p>
+              {content.contact.description && (
+                <p>{content.contact.description}</p>
+              )}
             </div>
 
             <div className="contact-actions-grid">
@@ -861,7 +1045,7 @@ function App() {
                     className="contact-action-icon"
                     aria-hidden="true"
                   >
-                    {option.icon}
+                    {renderContactIcon(option.icon)}
                   </span>
 
                   <span className="contact-action-content">
